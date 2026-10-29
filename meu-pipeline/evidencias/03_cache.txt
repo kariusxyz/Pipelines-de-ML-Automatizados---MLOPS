@@ -1,0 +1,8 @@
+2026/10/29 08:42:01 INFO mlflow.pipelines.step: Step ingest: cache hit, skipping execution.
+2026/10/29 08:42:01 INFO mlflow.pipelines.step: Step split: cache hit, skipping execution.
+2026/10/29 08:42:01 INFO mlflow.pipelines.step: Step transform: cache hit, skipping execution.
+2026/10/29 08:42:01 INFO mlflow.pipelines.step: Running step train...
+2026/10/29 08:42:05 INFO mlflow.pipelines.step: Step train completed in 3.12s
+2026/10/29 08:42:05 INFO mlflow.pipelines.step: Running step evaluate...
+2026/10/29 08:42:06 INFO mlflow.pipelines.step: Validation criteria satisfied: accuracy_score=0.8800 >= threshold=0.80
+2026/10/29 08:42:06 INFO mlflow.pipelines.step: Successfully registered model 'modelo-semana7' version 2.
